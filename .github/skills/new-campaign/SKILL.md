@@ -9,10 +9,21 @@ You are creating a **brand new campaign world** for Infinite RPG. Follow these s
 
 ## Step 1: Ask the Player for Preferences
 
-Ask the player (one question at a time) about:
-1. **Tone**: Dark & gritty, heroic fantasy, lighthearted adventure, or horror?
-2. **Setting hook**: Any themes they'd like? (e.g., "ancient evil awakening", "warring kingdoms", "frontier exploration", "planar rifts")
-3. **World size**: Focused (single region), medium (kingdom-scale), or epic (continent/multi-plane)?
+Use the `ask_user` tool to ask the player **one question at a time**. Always pass choices as a **list** (array), never a single string.
+
+1. **Tone** — ask with these choices:
+   - "Dark & gritty"
+   - "Heroic fantasy"
+   - "Lighthearted adventure"
+   - "Horror"
+   - "Surprise me"
+
+2. **Setting hook** — ask as freeform (no choices array): "Any themes you'd like? e.g. ancient evil awakening, warring kingdoms, frontier exploration, planar rifts"
+
+3. **World size** — ask with these choices:
+   - "Focused (single region)"
+   - "Medium (kingdom-scale)"
+   - "Epic (continent / multi-plane)"
 
 If the player says "surprise me," generate everything randomly using dice:
 - d4 for tone, d6 for theme, d4 for scale
