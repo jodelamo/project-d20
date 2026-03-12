@@ -18,15 +18,21 @@ Use the `ask_user` tool to ask the player **one question at a time**. Always pas
    - "Horror"
    - "Surprise me"
 
-2. **Setting hook** — ask as freeform (no choices array): "Any themes you'd like? e.g. ancient evil awakening, warring kingdoms, frontier exploration, planar rifts"
+2. **Setting hook** — ask with these choices:
+   - "Ancient evil awakening"
+   - "Warring kingdoms"
+   - "Frontier exploration"
+   - "Planar rifts"
+   - "Surprise me"
 
 3. **World size** — ask with these choices:
    - "Focused (single region)"
    - "Medium (kingdom-scale)"
    - "Epic (continent / multi-plane)"
+   - "Surprise me"
 
-If the player says "surprise me," generate everything randomly using dice:
-- d4 for tone, d6 for theme, d4 for scale
+If the player says "Surprise me" for any question, generate that choice randomly using dice:
+- d4 for tone, d4 for setting hook, d4 for world size
 
 ## Step 2: Generate the World
 
