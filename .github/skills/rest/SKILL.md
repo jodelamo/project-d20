@@ -30,11 +30,15 @@ Read character and campaign files for:
    - Hit dice are NOT replenished (only on long rest)
 
 2. **Class features that recharge on short rest**:
-   - Warrior: Second Wind (if used)
-   - Bard: Bardic Inspiration dice
-   - Channel Divinity (Cleric)
+   - Fighter: Second Wind, Action Surge
+   - Barbarian: Rage (does not recharge — long rest only)
+   - Monk: Ki points
+   - Bard: Bardic Inspiration dice (at level 5+ with Font of Inspiration)
+   - Cleric: Channel Divinity
+   - Warlock: Pact Magic spell slots
+   - Druid: Wild Shape uses (recharge on short rest)
 
-3. **No spell slot recovery** (except Mage's Arcane Recovery: once per day, recover spell slots with combined level ≤ half mage level, rounded up)
+3. **No spell slot recovery** (except Wizard's Arcane Recovery: once per day, recover spell slots with combined level ≤ half wizard level, rounded up)
 
 4. Advance time by 1 hour.
 
@@ -97,7 +101,7 @@ Roll d8 for an optional **campfire moment** to add role-playing flavor:
 Players may use rest time to:
 - **Eat rations** (consume 1 ration per long rest, or forage with Survival DC 10)
 - **Apply healing kits** (stabilize or grant +1 to hit die healing rolls)
-- **Study spellbook** (Mage: swap prepared spells)
+- **Study spellbook** (Wizard: swap prepared spells)
 - **Craft** (if they have tools and materials — Crafting check)
 - **Pray** (Cleric: commune with deity for guidance — Religion DC 15 for a divine hint)
 

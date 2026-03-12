@@ -25,12 +25,18 @@ Narrate the level-up dramatically:
 
 ### Hit Points
 Roll the class hit die (or take the average, player's choice):
-- **Warrior**: `🎲 d10 + CON modifier` (average: 6 + CON)
-- **Rogue**: `🎲 d8 + CON modifier` (average: 5 + CON)
-- **Mage**: `🎲 d6 + CON modifier` (average: 4 + CON)
-- **Cleric**: `🎲 d8 + CON modifier` (average: 5 + CON)
+- **Barbarian**: `🎲 d12 + CON modifier` (average: 7 + CON)
+- **Fighter**: `🎲 d10 + CON modifier` (average: 6 + CON)
+- **Paladin**: `🎲 d10 + CON modifier` (average: 6 + CON)
 - **Ranger**: `🎲 d10 + CON modifier` (average: 6 + CON)
 - **Bard**: `🎲 d8 + CON modifier` (average: 5 + CON)
+- **Cleric**: `🎲 d8 + CON modifier` (average: 5 + CON)
+- **Druid**: `🎲 d8 + CON modifier` (average: 5 + CON)
+- **Monk**: `🎲 d8 + CON modifier` (average: 5 + CON)
+- **Rogue**: `🎲 d8 + CON modifier` (average: 5 + CON)
+- **Warlock**: `🎲 d8 + CON modifier` (average: 5 + CON)
+- **Sorcerer**: `🎲 d6 + CON modifier` (average: 4 + CON)
+- **Wizard**: `🎲 d6 + CON modifier` (average: 4 + CON)
 
 Show the roll: `🎲 HP roll: [result] + CON mod [mod] = +[total] HP → New max HP: [new_max]`
 
@@ -49,25 +55,38 @@ Update if crossing a threshold:
 ### Hit Dice
 Gain 1 additional hit die of the class type.
 
-## 4. Allocate Skill Points
+## 4. Skill Proficiencies
 
-Calculate new skill points: **2 + INT modifier** (minimum 1)
+At certain levels, some classes gain new skill proficiencies or expertise:
+- **Rogue**: Additional Expertise at level 6 (double proficiency on 2 more skills)
+- **Bard**: Additional Expertise at level 10 (double proficiency on 2 more skills)
+- **Bard (Lore)**: 3 additional skill proficiencies at level 3
 
-Present the player's current skill proficiencies and let them spend points:
-- **1 point** → Gain proficiency in a new skill
-- **2 points** → Upgrade proficiency to expertise (if class allows expertise)
-
-Show the updated skill list after allocation.
+No other class gains new skill proficiencies on level-up (proficiencies are fixed at character creation).
 
 ## 5. Class Features by Level
 
-### Warrior
+### Barbarian
 | Level | Feature |
 |-------|---------|
-| 1 | Fighting Style (choose: Defense +1AC, Dueling +2 damage, Great Weapon reroll 1s/2s, Archery +2 ranged) |
+| 1 | Rage (2/long rest, +2 damage), Unarmored Defense (AC = 10 + DEX + CON) |
+| 2 | Reckless Attack (advantage on STR attacks, attacks against you have advantage), Danger Sense (advantage on DEX saves you can see) |
+| 3 | Primal Path (Berserker: Frenzy — bonus action attack while raging, Path of the Totem Warrior: totem spirits) |
+| 4 | Ability Score Improvement |
+| 5 | Extra Attack, Fast Movement (+10 speed while unarmored) |
+| 6 | Path Feature |
+| 7 | Feral Instinct (advantage on initiative, can act while surprised if raging) |
+| 8 | Ability Score Improvement |
+| 9 | Brutal Critical (+1 extra damage die on crit) |
+| 10 | Path Feature |
+
+### Fighter
+| Level | Feature |
+|-------|---------|
+| 1 | Fighting Style (choose: Defense +1AC, Dueling +2 damage, Great Weapon reroll 1s/2s, Archery +2 ranged, Protection, Two-Weapon Fighting), Second Wind (1d10 + level HP, 1/short rest) |
 | 2 | Action Surge (1 extra action, 1/short rest) |
-| 3 | Martial Archetype (Champion: crit on 19–20, Battlemaster: maneuvers, Eldritch Knight: spellcasting) |
-| 4 | Ability Score Improvement (+2 to one attribute or +1 to two, or a Feat) |
+| 3 | Martial Archetype (Champion: crit on 19–20, Battle Master: maneuvers, Eldritch Knight: spellcasting) |
+| 4 | Ability Score Improvement |
 | 5 | Extra Attack (2 attacks per Attack action) |
 | 6 | Ability Score Improvement |
 | 7 | Archetype Feature |
@@ -89,11 +108,11 @@ Show the updated skill list after allocation.
 | 9 | Sneak Attack +5d6 (cumulative: +1d6 every odd level) |
 | 10 | Ability Score Improvement |
 
-### Mage
+### Wizard
 | Level | Feature |
 |-------|---------|
-| 1 | Arcane Recovery (recover slots = half level on short rest, 1/day) |
-| 2 | Arcane Tradition (Evocation: sculpt AoE, Abjuration: ward, Divination: portent) |
+| 1 | Arcane Recovery (recover slots = half level rounded up on short rest, 1/day), Spellcasting |
+| 2 | Arcane Tradition (Evocation: Sculpt Spells, Abjuration: Arcane Ward, Divination: Portent) |
 | 3 | 2nd-level spell slots |
 | 4 | Ability Score Improvement |
 | 5 | 3rd-level spell slots |
@@ -102,6 +121,76 @@ Show the updated skill list after allocation.
 | 8 | Ability Score Improvement |
 | 9 | 5th-level spell slots |
 | 10 | Tradition Feature |
+
+### Sorcerer
+| Level | Feature |
+|-------|---------|
+| 1 | Sorcerous Origin (Draconic Bloodline: +1 HP/level + AC 13 unarmored, Wild Magic: Wild Magic Surge + Tides of Chaos), Spellcasting |
+| 2 | Font of Magic (sorcery points = level, convert between spell slots and points) |
+| 3 | Metamagic (choose 2: Twinned, Quickened, Subtle, Empowered, etc.), 2nd-level spell slots |
+| 4 | Ability Score Improvement |
+| 5 | 3rd-level spell slots |
+| 6 | Origin Feature |
+| 7 | 4th-level spell slots |
+| 8 | Ability Score Improvement |
+| 9 | 5th-level spell slots |
+| 10 | Metamagic (learn 1 more) |
+
+### Warlock
+| Level | Feature |
+|-------|---------|
+| 1 | Otherworldly Patron (Archfey: charm, Fiend: temp HP on kill, Great Old One: telepathy), Pact Magic (1 slot, recharges on short rest) |
+| 2 | Eldritch Invocations (choose 2 — e.g., Agonizing Blast, Devil's Sight, Mask of Many Faces) |
+| 3 | Pact Boon (Pact of the Chain: familiar, Pact of the Blade: weapon, Pact of the Tome: cantrips), 2nd-level slots |
+| 4 | Ability Score Improvement |
+| 5 | 3rd-level slots, Invocation (learn 1 more) |
+| 6 | Patron Feature |
+| 7 | 4th-level slots, Invocation (learn 1 more) |
+| 8 | Ability Score Improvement |
+| 9 | 5th-level slots, Invocation (learn 1 more) |
+| 10 | Patron Feature |
+
+### Druid
+| Level | Feature |
+|-------|---------|
+| 1 | Druidic (secret language), Spellcasting |
+| 2 | Wild Shape (CR ¼, 2 uses/short rest), Druid Circle (Circle of the Land: bonus cantrip + natural recovery, Circle of the Moon: CR 1 Wild Shape + combat form) |
+| 3 | 2nd-level spell slots |
+| 4 | Ability Score Improvement, Wild Shape CR ½ |
+| 5 | 3rd-level spell slots |
+| 6 | Circle Feature |
+| 7 | 4th-level spell slots |
+| 8 | Ability Score Improvement, Wild Shape CR 1 |
+| 9 | 5th-level spell slots |
+| 10 | Circle Feature |
+
+### Monk
+| Level | Feature |
+|-------|---------|
+| 1 | Unarmored Defense (AC = 10 + DEX + WIS), Martial Arts (use DEX for unarmed/monk weapons, bonus unarmed strike, 1d4 damage die) |
+| 2 | Ki (points = level — Flurry of Blows, Patient Defense, Step of the Wind), Unarmored Movement (+10 speed) |
+| 3 | Monastic Tradition (Open Hand: stunning strike features, Shadow: shadow arts, Four Elements: elemental disciplines), Deflect Missiles |
+| 4 | Ability Score Improvement, Slow Fall (reduce falling damage by 5× level) |
+| 5 | Extra Attack, Stunning Strike (1 ki — CON save or stunned), Martial Arts d6 |
+| 6 | Ki-Empowered Strikes (unarmed = magical), Tradition Feature, Unarmored Movement (+15) |
+| 7 | Evasion, Stillness of Mind |
+| 8 | Ability Score Improvement |
+| 9 | Unarmored Movement Improvement (run on vertical surfaces and water) |
+| 10 | Purity of Body (immune to disease and poison) |
+
+### Paladin
+| Level | Feature |
+|-------|---------|
+| 1 | Divine Sense (detect celestials/fiends/undead), Lay on Hands (HP pool = 5 × level) |
+| 2 | Fighting Style (Defense, Dueling, Great Weapon, Protection), Spellcasting, Divine Smite (2d8 radiant on hit, +1d8/slot above 1st, +1d8 vs undead/fiend) |
+| 3 | Sacred Oath (Oath of Devotion: Sacred Weapon + Turn the Unholy, Oath of the Ancients: nature powers, Oath of Vengeance: hunting powers), Channel Divinity |
+| 4 | Ability Score Improvement |
+| 5 | Extra Attack, 2nd-level spell slots |
+| 6 | Aura of Protection (+CHA mod to saves for allies within 10 ft) |
+| 7 | Oath Feature |
+| 8 | Ability Score Improvement |
+| 9 | 3rd-level spell slots |
+| 10 | Aura of Courage (you and allies within 10 ft can't be frightened) |
 
 ### Cleric
 | Level | Feature |
@@ -167,10 +256,12 @@ When an ASI is earned, the player chooses:
 ## 7. New Spells (Casters)
 
 If the character is a spellcaster, they gain new spells at the new level:
-- **Mage**: +2 spells added to spellbook (any level they can cast)
-- **Cleric**: Access to full cleric list up to new max spell level
-- **Bard**: +1 spell known (can swap 1 old spell for a new one)
+- **Wizard**: +2 spells added to spellbook (any level they can cast)
+- **Cleric/Druid**: Access to full class spell list up to new max spell level (prepare WIS mod + level)
+- **Bard/Sorcerer**: +1 spell known (can swap 1 old spell for a new one)
 - **Ranger**: +1 spell known at levels when new slots appear
+- **Warlock**: +1 spell known (can swap 1 old spell), Pact Magic slots upgrade
+- **Paladin**: Access to full paladin spell list up to new max spell level (prepare CHA mod + half level)
 
 Present appropriate spell options and let the player choose.
 

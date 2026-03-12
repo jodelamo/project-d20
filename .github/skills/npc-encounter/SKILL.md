@@ -19,16 +19,18 @@ Read campaign and character files to understand:
 
 ### Roll NPC Traits
 
-**Race** (d8):
-| d8 | Race |
-|----|------|
+**Race** (d10):
+| d10 | Race |
+|-----|------|
 | 1–2 | Human |
 | 3 | Elf |
 | 4 | Dwarf |
 | 5 | Halfling |
-| 6 | Orc |
+| 6 | Half-Orc |
 | 7 | Tiefling |
 | 8 | Dragonborn |
+| 9 | Gnome |
+| 10 | Half-Elf |
 
 **Disposition** (d6):
 | d6 | Disposition |

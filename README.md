@@ -32,12 +32,12 @@ Open this project and start a Copilot Chat session. The game is played entirely 
 
 ### Game System
 
-- **D&D-inspired** d20 system with 6 core attributes
-- **7 playable races**: Human, Elf, Dwarf, Halfling, Orc, Tiefling, Dragonborn
-- **6 classes**: Warrior, Rogue, Mage, Cleric, Ranger, Bard
+- **D&D 5e Basic Rules (2014)** — faithful d20 system with 6 core attributes
+- **9 playable races**: Dwarf, Elf, Halfling, Human, Dragonborn, Gnome, Half-Elf, Half-Orc, Tiefling
+- **12 classes**: Barbarian, Bard, Cleric, Druid, Fighter, Monk, Paladin, Ranger, Rogue, Sorcerer, Warlock, Wizard
 - **18 skills** with proficiency and expertise
 - **XP-based leveling** with class features up to level 10
-- **Full spellcasting** system with spell slots and cantrips
+- **Full spellcasting** system with spell slots, cantrips, and Pact Magic
 - **Every outcome determined by dice** — shown in the open
 
 ### Game State

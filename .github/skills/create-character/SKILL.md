@@ -17,26 +17,36 @@ If they want random generation, roll on improvised tables.
 
 ## Step 2: Choose Race
 
-Present the available races from the core rules with their bonuses and traits:
-- Human (+1 all, versatile)
-- Elf (+2 DEX, +1 INT, darkvision, fey ancestry)
-- Dwarf (+2 CON, +1 STR, darkvision, poison resistance)
-- Halfling (+2 DEX, +1 CHA, lucky, brave)
-- Orc (+2 STR, +1 CON, relentless endurance, savage attacks)
-- Tiefling (+2 CHA, +1 INT, darkvision 120ft, fire resistance)
-- Dragonborn (+2 STR, +1 CHA, breath weapon, elemental resistance)
+Present the available races from the core rules with their bonuses and traits (refer to RULES.md for full details):
+- Dwarf (+2 CON, darkvision, poison resistance — subrace: Hill or Mountain)
+- Elf (+2 DEX, darkvision, Fey Ancestry, Keen Senses — subrace: High or Wood)
+- Halfling (+2 DEX, Lucky, Brave, Nimbleness — subrace: Lightfoot or Stout)
+- Human (+1 all attributes, extra language)
+- Dragonborn (+2 STR, +1 CHA, breath weapon — choose draconic ancestry)
+- Gnome (+2 INT, darkvision, Gnome Cunning — subrace: Forest or Rock)
+- Half-Elf (+2 CHA, +1 to two others, darkvision, Fey Ancestry, 2 extra skill proficiencies)
+- Half-Orc (+2 STR, +1 CON, darkvision, Menacing, Relentless Endurance, Savage Attacks)
+- Tiefling (+2 CHA, +1 INT, darkvision 60ft, fire resistance, Infernal Legacy)
 
-If Dragonborn, also ask for **draconic ancestry** (fire, cold, lightning, acid, or poison).
+If Dragonborn, also ask for **draconic ancestry** (Black/acid, Blue/lightning, Brass/fire, Bronze/lightning, Copper/acid, Gold/fire, Green/poison, Red/fire, Silver/cold, White/cold).
+
+If the race has subraces (Dwarf, Elf, Halfling, Gnome), ask the player to choose.
 
 ## Step 3: Choose Class
 
 Present the classes with a one-line pitch:
-- **Warrior** — Master of weapons and armor. High HP, devastating attacks.
-- **Rogue** — Stealthy striker. Sneak attack damage, skills galore.
-- **Mage** — Arcane spellcaster. Fragile but devastating magical power.
-- **Cleric** — Divine healer and protector. Spells from the gods.
-- **Ranger** — Wilderness expert. Half-caster with martial prowess.
+- **Barbarian** — Primal warrior. Rages for devastating power, toughest HP.
 - **Bard** — Jack of all trades. Inspiration, magic, and charm.
+- **Cleric** — Divine healer and protector. Spells from the gods.
+- **Druid** — Nature's guardian. Wild Shape and primal magic.
+- **Fighter** — Master of weapons and armor. High HP, devastating attacks.
+- **Monk** — Martial artist. Unarmored speed, ki-powered strikes.
+- **Paladin** — Holy knight. Divine Smite, healing, and oaths.
+- **Ranger** — Wilderness expert. Half-caster with martial prowess.
+- **Rogue** — Stealthy striker. Sneak attack damage, skills galore.
+- **Sorcerer** — Innate magic. Metamagic to reshape spells.
+- **Warlock** — Pact-bound caster. Eldritch power from a patron.
+- **Wizard** — Arcane scholar. Largest spell list, spellbook mastery.
 
 ## Step 4: Roll Attributes
 
@@ -59,31 +69,41 @@ If the player prefers, offer **standard array** instead: 15, 14, 13, 12, 10, 8
 - **Initiative**: DEX modifier
 - **Proficiency Bonus**: +2 (level 1)
 
-## Step 6: Allocate Skill Points
+## Step 6: Choose Skill Proficiencies
 
-Calculate skill point pool: **4 + INT modifier** (minimum 1, +1 if Human)
+Each class grants a number of skills chosen from a specific list. The player's background also grants 2 additional proficiencies. Refer to RULES.md for the full skill list and class skill options.
 
-Present the full skill list with governing attributes. Let the player spend points:
-- **1 point** = proficiency in that skill
-- **2 points** = expertise (double proficiency bonus)
-
-Also grant **class skill proficiencies** for free:
-- Warrior: Choose 2 from Athletics, Intimidation, Perception, Survival
-- Rogue: Choose 4 from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, Stealth
-- Mage: Choose 2 from Arcana, History, Insight, Investigation, Medicine, Religion
-- Cleric: Choose 2 from History, Insight, Medicine, Persuasion, Religion
-- Ranger: Choose 3 from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, Survival
+Grant **class skill proficiencies**:
+- Barbarian: Choose 2 from Animal Handling, Athletics, Intimidation, Nature, Perception, Survival
 - Bard: Choose any 3 skills
+- Cleric: Choose 2 from History, Insight, Medicine, Persuasion, Religion
+- Druid: Choose 2 from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, Survival
+- Fighter: Choose 2 from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, Survival
+- Monk: Choose 2 from Acrobatics, Athletics, History, Insight, Religion, Stealth
+- Paladin: Choose 2 from Athletics, Insight, Intimidation, Medicine, Persuasion, Religion
+- Ranger: Choose 3 from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, Survival
+- Rogue: Choose 4 from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, Stealth
+- Sorcerer: Choose 2 from Arcana, Deception, Insight, Intimidation, Persuasion, Religion
+- Warlock: Choose 2 from Arcana, Deception, History, Intimidation, Investigation, Nature, Religion
+- Wizard: Choose 2 from Arcana, History, Insight, Investigation, Medicine, Religion
+
+Then ask for a **background** (Acolyte, Criminal, Folk Hero, Noble, Sage, Soldier, or custom) which grants 2 more skill proficiencies per the background description.
 
 ## Step 7: Starting Equipment & Gold
 
 Roll starting gold: **class-based**
-- Warrior: 5d4 × 10 GP
-- Rogue: 4d4 × 10 GP
-- Mage: 2d4 × 10 GP (but start with a spellbook)
-- Cleric: 4d4 × 10 GP (start with a holy symbol)
-- Ranger: 5d4 × 10 GP
+- Barbarian: 2d4 × 10 GP
 - Bard: 5d4 × 10 GP (start with an instrument)
+- Cleric: 5d4 × 10 GP (start with a holy symbol)
+- Druid: 2d4 × 10 GP (start with a druidic focus)
+- Fighter: 5d4 × 10 GP
+- Monk: 5d4 GP (no ×10 — monks start with little)
+- Paladin: 5d4 × 10 GP (start with a holy symbol)
+- Ranger: 5d4 × 10 GP
+- Rogue: 4d4 × 10 GP
+- Sorcerer: 3d4 × 10 GP
+- Warlock: 4d4 × 10 GP (start with an arcane focus)
+- Wizard: 4d4 × 10 GP (start with a spellbook)
 
 Give a sensible **starting equipment pack** based on class:
 - Weapon(s), armor, adventurer's pack, class-specific item
@@ -91,10 +111,14 @@ Give a sensible **starting equipment pack** based on class:
 ## Step 8: Spells (if spellcaster)
 
 For casters at level 1:
-- **Mage**: Choose 3 cantrips + 6 first-level spells in spellbook (prepare INT modifier + 1)
+- **Wizard**: Choose 3 cantrips + 6 first-level spells in spellbook (prepare INT modifier + 1)
 - **Cleric**: Choose 3 cantrips, prepare WIS modifier + 1 first-level spells from full list
+- **Druid**: Choose 2 cantrips, prepare WIS modifier + 1 first-level spells from full list
 - **Bard**: Choose 2 cantrips + 4 first-level spells known
-- **Ranger**: No spells at level 1
+- **Sorcerer**: Choose 4 cantrips + 2 first-level spells known
+- **Warlock**: Choose 2 cantrips + 2 first-level spells known
+- **Ranger**: No spells at level 1 (gains spellcasting at level 2)
+- **Paladin**: No spells at level 1 (gains spellcasting at level 2)
 
 Generate spell options appropriate to the character concept and let the player choose.
 
@@ -160,4 +184,4 @@ Use horizontal rules (`═` for top/bottom, `─` for sections) with no side bor
 **Formatting rules:**
 - Prefix proficient skills with `*`, list them first
 - Wrap backstory text at ~50 characters per line
-- Omit the SPELLS section entirely for non-caster classes (Warrior, Rogue)
+- Omit the SPELLS section entirely for non-caster classes (Fighter, Barbarian, Rogue, Monk)
