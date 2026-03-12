@@ -1,4 +1,4 @@
-# 🎲 Infinite RPG
+# 🎲 AI RPG
 
 A fully AI-driven tabletop RPG campaign system powered by **GitHub Copilot**. No code — just markdown skill files, dice, and imagination.
 

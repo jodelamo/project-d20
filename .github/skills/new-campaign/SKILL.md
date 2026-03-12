@@ -5,7 +5,7 @@ description: Generate a new campaign world with setting, factions, locations, an
 
 # New Campaign — World Generation
 
-You are creating a **brand new campaign world** for Infinite RPG. Follow these steps:
+You are creating a **brand new campaign world** for AI RPG. Follow these steps:
 
 ## Step 1: Ask the Player for Preferences
 
