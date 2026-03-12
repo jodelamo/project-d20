@@ -91,36 +91,11 @@ Then ask for a **background** (Acolyte, Criminal, Folk Hero, Noble, Sage, Soldie
 
 ## Step 7: Starting Equipment & Gold
 
-Roll starting gold: **class-based**
-- Barbarian: 2d4 × 10 GP
-- Bard: 5d4 × 10 GP (start with an instrument)
-- Cleric: 5d4 × 10 GP (start with a holy symbol)
-- Druid: 2d4 × 10 GP (start with a druidic focus)
-- Fighter: 5d4 × 10 GP
-- Monk: 5d4 GP (no ×10 — monks start with little)
-- Paladin: 5d4 × 10 GP (start with a holy symbol)
-- Ranger: 5d4 × 10 GP
-- Rogue: 4d4 × 10 GP
-- Sorcerer: 3d4 × 10 GP
-- Warlock: 4d4 × 10 GP (start with an arcane focus)
-- Wizard: 4d4 × 10 GP (start with a spellbook)
-
-Give a sensible **starting equipment pack** based on class:
-- Weapon(s), armor, adventurer's pack, class-specific item
+Roll starting gold and assign equipment per the tables in `starting-equipment.md`.
 
 ## Step 8: Spells (if spellcaster)
 
-For casters at level 1:
-- **Wizard**: Choose 3 cantrips + 6 first-level spells in spellbook (prepare INT modifier + 1)
-- **Cleric**: Choose 3 cantrips, prepare WIS modifier + 1 first-level spells from full list
-- **Druid**: Choose 2 cantrips, prepare WIS modifier + 1 first-level spells from full list
-- **Bard**: Choose 2 cantrips + 4 first-level spells known
-- **Sorcerer**: Choose 4 cantrips + 2 first-level spells known
-- **Warlock**: Choose 2 cantrips + 2 first-level spells known
-- **Ranger**: No spells at level 1 (gains spellcasting at level 2)
-- **Paladin**: No spells at level 1 (gains spellcasting at level 2)
-
-Generate spell options appropriate to the character concept and let the player choose.
+For casters at level 1, refer to the starting spells table in `starting-equipment.md` for cantrip/spell counts by class. Generate spell options appropriate to the character concept and let the player choose.
 
 ## Step 9: Backstory
 
