@@ -42,6 +42,7 @@
 **Subraces**:
 - **High Elf**: INT +1. *Elf Weapon Training* — Proficiency with longsword, shortsword, shortbow, longbow. One cantrip of your choice from the wizard spell list (INT is the spellcasting ability). One extra language.
 - **Wood Elf**: WIS +1. *Elf Weapon Training* — Proficiency with longsword, shortsword, shortbow, longbow. *Fleet of Foot* — Speed increases to 35 ft. *Mask of the Wild* — Can attempt to hide when lightly obscured by natural phenomena (foliage, rain, snow, mist).
+- **Drow (Dark Elf)**: CHA +1. *Superior Darkvision* — 120 ft. *Sunlight Sensitivity* — Disadvantage on attack rolls and WIS (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight. *Drow Magic* — You know the Dancing Lights cantrip. At 3rd level, you can cast Faerie Fire once per long rest. At 5th level, you can cast Darkness once per long rest. CHA is the spellcasting ability for these spells. *Drow Weapon Training* — Proficiency with rapiers, shortswords, and hand crossbows.
 
 ## Halfling
 
