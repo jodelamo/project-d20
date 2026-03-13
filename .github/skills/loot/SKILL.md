@@ -36,15 +36,15 @@ For quest rewards or major discoveries, generate a **named item** with:
 Describe the loot narratively:
 *"Amid the fallen goblin's possessions, you find a leather pouch containing 14 gold pieces, and — glinting beneath a tattered cloak — a dagger with runes etched along the blade that pulse with faint blue light..."*
 
-Then list mechanically:
+Then list mechanically using the item icons from RULES.md § "Display Formatting — Icons & Items":
 ```
 📦 Loot Found:
-- 14 GP
-- Frostfang Dagger (uncommon): +1 dagger, deals extra 1d4 cold damage
+  🪙 **14 GP**
+  ✨⚔️ **Frostfang Dagger** (uncommon) — +1 dagger, +1d4 cold damage
 ```
 
 ## 5. Update State
 
-- Add items and gold to character inventory
+- Add items and gold to character inventory (display with category icons per RULES.md § "Display Formatting")
 - If item is plot-relevant, note it in campaign file
 - Prompt player: keep, equip, or stash?

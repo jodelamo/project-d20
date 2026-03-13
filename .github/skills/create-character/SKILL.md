@@ -142,7 +142,7 @@ Use horizontal rules (`═` for top/bottom, `─` for sections) with no side bor
   {item}
   ...
 ───────────────────────────────────────────────────────
-  GOLD: {gold} GP
+  GOLD: 🪙 {gold} GP
 ───────────────────────────────────────────────────────
   SPELLS (casters only)
   Cantrips: {cantrip_list}

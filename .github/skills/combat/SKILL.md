@@ -115,12 +115,13 @@ When all enemies are defeated or combat ends:
 4. **Narrative**: Describe the aftermath — the silence after battle, the scene
 
 ### Quick Loot (d6 per enemy)
+Use item icons per RULES.md § "Display Formatting — Icons & Items":
 | d6  | Drop |
 |-----|------|
 | 1–2 | Nothing |
-| 3–4 | d6 gold coins |
-| 5   | Minor consumable (potion, scroll) |
-| 6   | Weapon, armor, or notable item |
+| 3–4 | 🪙 d6 gold coins |
+| 5   | 🧪 Minor consumable (potion, scroll 📜) |
+| 6   | ⚔️ Weapon, 🛡️ armor, or 🗝️ notable item |
 
 ## 8. Update State
 

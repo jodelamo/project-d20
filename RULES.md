@@ -638,6 +638,69 @@ After every significant event (combat, rest, shopping, level-up, quest progress)
 
 ---
 
+## Display Formatting — Icons & Items
+
+Always use these icons when presenting gold, items, loot, inventory, or rewards in narrative or mechanical output. Bold the item or amount for emphasis.
+
+### Gold & Currency
+
+All gold and currency displays use the 🪙 icon with bold amounts:
+- Picking up gold: `+🪙 **14 GP**`
+- Spending gold: `−🪙 **75 GP**`
+- Current balance: `🪙 **230 GP**`
+- Balance change: `🪙 **140 GP → 65 GP**`
+- Quest rewards: `💰 Quest Reward: 🪙 **200 GP**`
+- Splitting loot: `🪙 360 GP ÷ 3 = **🪙 120 GP each**`
+
+### Item Icons by Category
+
+| Icon | Category | When to use |
+|------|----------|-------------|
+| ⚔️ | **Weapons** | Swords, axes, bows, daggers, maces, any weapon |
+| 🛡️ | **Armor & Shields** | Plate, chain mail, leather armor, shields |
+| 🧪 | **Potions** | Healing potions, poisons, antidotes, oils |
+| 📜 | **Scrolls & Books** | Spell scrolls, tomes, maps, letters |
+| 💍 | **Rings & Amulets** | Rings, necklaces, amulets, circlets, brooches |
+| 🪄 | **Wands & Staves** | Wands, staves, rods, orbs, arcane foci |
+| 🎒 | **General Gear** | Rope, torches, rations, tools, adventuring supplies |
+| 💎 | **Gems & Valuables** | Gemstones, art objects, trade goods |
+| 🗝️ | **Quest Items & Keys** | Plot items, relics, keys, unique artifacts |
+| 🍖 | **Food & Drink** | Rations, ale, meals, provisions |
+| ✨ | **Magical** | Prefix any magical item with ✨ before its category icon |
+
+### Formatting Examples
+
+**Loot drops:**
+```
+📦 Loot Found:
+  🪙 **14 GP**
+  ✨⚔️ **Frostfang Dagger** (uncommon) — +1 dagger, +1d4 cold damage
+  🧪 **Potion of Healing** ×2
+  💎 **Sapphire** (worth 🪙 **100 GP**)
+```
+
+**Shopping:**
+```
+🛒 Purchase:
+  ⚔️ Longsword — 🪙 **15 GP**
+  🛡️ Chain Shirt — 🪙 **50 GP**
+  🧪 Potion of Healing — 🪙 **50 GP**
+  Total: 🪙 **115 GP**  |  Balance: 🪙 **230 GP → 115 GP**
+```
+
+**Inventory display:**
+```
+🎒 Inventory:
+  ⚔️ Longsword
+  🛡️ Chain Shirt (AC 13 + DEX max 2)
+  🧪 Potion of Healing ×2
+  📜 Scroll of Identify
+  🎒 Rope (50 ft), Torches ×5, Rations ×3
+  🪙 **115 GP**
+```
+
+---
+
 ## GM Style Guidelines
 
 - **Narrate vividly** but concisely. Describe sights, sounds, smells.

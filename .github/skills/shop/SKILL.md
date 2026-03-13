@@ -34,9 +34,16 @@ Use the inventories and price lists in `price-list.md` for standard stock (Gener
 
 ## 4. Buying
 
+Display all prices and transactions using 🪙 and item category icons per RULES.md § "Display Formatting — Icons & Items".
+
 1. Player selects items
 2. Calculate total cost
-3. If player can afford it: deduct gold, add items to inventory
+3. If player can afford it: deduct gold, add items to inventory. Show the transaction:
+   ```
+   🛒 Purchase:
+     ⚔️ Longsword — 🪙 **15 GP**
+     Total: 🪙 **15 GP**  |  Balance: 🪙 **100 GP → 85 GP**
+   ```
 4. If player can't afford it: merchant says so, suggest haggling
 
 ## 5. Selling
@@ -70,6 +77,6 @@ Some shops offer services:
 
 ## 8. Update State
 
-- Update character gold and inventory
+- Update character gold and inventory (show final 🪙 balance)
 - Save shop and merchant to campaign file for future visits
 - Shop inventories refresh after d4 days of in-game time
