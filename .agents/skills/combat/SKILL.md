@@ -1,0 +1,1 @@
+../../../.github/skills/combat/SKILL.md

@@ -1,0 +1,1 @@
+../../../.github/skills/skill-check/SKILL.md

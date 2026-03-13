@@ -1,0 +1,1 @@
+../../../.github/skills/loot/SKILL.md

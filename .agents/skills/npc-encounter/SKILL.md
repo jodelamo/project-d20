@@ -1,0 +1,1 @@
+../../../.github/skills/npc-encounter/SKILL.md
