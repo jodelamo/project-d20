@@ -1,5 +1,14 @@
 # Loot Tables
 
+## Contents
+
+- [Individual Monster Drops](#individual-monster-drops) (by CR tier)
+- [Treasure Hoards](#treasure-hoards)
+- [Magical Item Generation](#magical-item-generation) (rarity, type, properties)
+- [Cursed Items](#cursed-items)
+
+---
+
 ## Individual Monster Drops
 
 Roll d100 per defeated enemy.

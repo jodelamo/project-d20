@@ -7,6 +7,18 @@ description: Generate treasure, magical items, and loot drops for combat, treasu
 
 Generate appropriate loot for combat drops, treasure hoards, and hidden caches.
 
+## Workflow Checklist
+
+Copy this checklist and mark each step complete as you go:
+
+```
+- [ ] 1. Load context (party level, location, source)
+- [ ] 2. Roll on loot tables from loot-tables.md
+- [ ] 3. Generate unique/story items (if applicable)
+- [ ] 4. Present loot narratively and mechanically
+- [ ] 5. Update state (inventory, gold, campaign notes)
+```
+
 ## 1. Context
 
 Read the character and campaign files. Consider:

@@ -7,6 +7,33 @@ description: Handle spellcasting, ritual magic, magical item use, and wild magic
 
 Handle all magical actions — spellcasting, ritual magic, magical item use, and wild magic events.
 
+## Table of Contents
+
+- [Workflow Checklist](#workflow-checklist)
+- [1. Load Caster State](#1-load-caster-state)
+- [2. Spell Selection](#2-spell-selection)
+- [3. Spell Slot Check](#3-spell-slot-check)
+- [4. Resolve the Spell](#4-resolve-the-spell)
+- [5. Cantrip Scaling](#5-cantrip-scaling)
+- [6. Spell Compendium](#6-spell-compendium)
+- [7. Wild Magic](#7-wild-magic-sorcerer--optional)
+- [8. Update State](#8-update-state)
+
+## Workflow Checklist
+
+Copy this checklist and mark each step complete as you go:
+
+```
+- [ ] 1. Load caster state (class, ability, spells, slots, concentration)
+- [ ] 2. Identify or suggest the spell
+- [ ] 3. Check spell slot availability (cantrip / slot / upcast)
+- [ ] 4. Resolve the spell (attack roll, saving throw, healing, AoE, concentration)
+- [ ] 5. Apply cantrip scaling (if cantrip)
+- [ ] 6. Reference spells.md for spell details
+- [ ] 7. Roll wild magic surge (if Wild Magic Sorcerer)
+- [ ] 8. Update state (slots, HP, concentration, conditions, XP)
+```
+
 ## 1. Load Caster State
 
 Read the character file to determine:

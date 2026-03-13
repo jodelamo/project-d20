@@ -7,6 +7,31 @@ description: Handle short rests, long rests, and camping to recover HP, spell sl
 
 Handle short rests, long rests, and camping.
 
+## Table of Contents
+
+- [Workflow Checklist](#workflow-checklist)
+- [1. Load State](#1-load-state)
+- [2. Rest Type](#2-rest-type)
+- [3. Rest Safety Check](#3-rest-safety-check)
+- [4. Campfire Events](#4-campfire-events-long-rest-flavor)
+- [5. Consumable Use During Rest](#5-consumable-use-during-rest)
+- [6. Exhaustion Reminder](#6-exhaustion-reminder)
+- [7. Update State](#7-update-state)
+
+## Workflow Checklist
+
+Copy this checklist and mark each step complete as you go:
+
+```
+- [ ] 1. Load character & campaign state
+- [ ] 2. Determine rest type (short or long) and apply recovery
+- [ ] 3. Roll rest safety check for interruptions
+- [ ] 4. Campfire event (long rest flavor, optional)
+- [ ] 5. Handle consumable use (rations, kits, study, crafting)
+- [ ] 6. Check exhaustion levels
+- [ ] 7. Update state files (HP, hit dice, spell slots, time, rations)
+```
+
 ## 1. Load State
 
 Read character and campaign files for:
@@ -109,16 +134,7 @@ If no rations and foraging fails: No long rest HP benefit, gain 1 level of exhau
 
 ## 6. Exhaustion Reminder
 
-| Level | Effect |
-|-------|--------|
-| 1 | Disadvantage on ability checks |
-| 2 | Speed halved |
-| 3 | Disadvantage on attacks and saves |
-| 4 | HP maximum halved |
-| 5 | Speed reduced to 0 |
-| 6 | **Death** |
-
-One level removed per long rest. Emphasize the stakes if exhaustion is building.
+Exhaustion has 6 levels (disadvantage on checks → speed halved → disadvantage on attacks/saves → HP halved → speed 0 → death). One level removed per long rest. Emphasize the stakes if exhaustion is building.
 
 ## 7. Update State
 

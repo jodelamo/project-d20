@@ -7,6 +7,33 @@ description: Generate memorable NPCs and handle social interactions, dialogue, a
 
 Generate memorable NPCs and handle social interactions.
 
+## Table of Contents
+
+- [Workflow Checklist](#workflow-checklist)
+- [1. Load State](#1-load-state)
+- [2. NPC Generation](#2-npc-generation-if-new)
+- [3. Introduce the NPC](#3-introduce-the-npc)
+- [4. Dialogue](#4-dialogue)
+- [5. Quest Delivery](#5-quest-delivery)
+- [6. Information Trading](#6-information-trading)
+- [7. Recurring NPCs](#7-recurring-npcs)
+- [8. Update State](#8-update-state)
+
+## Workflow Checklist
+
+Copy this checklist and mark each step complete as you go:
+
+```
+- [ ] 1. Load character & campaign state
+- [ ] 2. Generate NPC (if new) from npc-tables.md
+- [ ] 3. Introduce the NPC dramatically
+- [ ] 4. Handle dialogue and social skill checks
+- [ ] 5. Deliver quest (if applicable)
+- [ ] 6. Handle information trading
+- [ ] 7. Save recurring NPC to campaign file
+- [ ] 8. Update state (dispositions, quests, XP, time)
+```
+
 ## 1. Load State
 
 Read campaign and character files to understand:

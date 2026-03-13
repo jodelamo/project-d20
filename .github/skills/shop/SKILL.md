@@ -7,6 +7,21 @@ description: Handle buying, selling, and trading at merchants and shops. Use thi
 
 Handle all buying, selling, and trading interactions.
 
+## Workflow Checklist
+
+Copy this checklist and mark each step complete as you go:
+
+```
+- [ ] 1. Load character gold, inventory, and CHA/Persuasion
+- [ ] 2. Generate shop and merchant (if new)
+- [ ] 3. Generate shop inventory from price-list.md
+- [ ] 4. Handle buying (display prices, deduct gold, add items)
+- [ ] 5. Handle selling (half value, shop-type restrictions)
+- [ ] 6. Handle haggling (Persuasion/Deception checks)
+- [ ] 7. Offer special services (repair, identify, brew)
+- [ ] 8. Update state (gold, inventory, merchant, shop refresh timer)
+```
+
 ## 1. Load State
 
 Read character file for: gold, inventory, CHA modifier, Persuasion skill.

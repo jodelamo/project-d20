@@ -7,6 +7,35 @@ description: Handle character advancement when XP reaches the level-up threshold
 
 Handle character advancement when XP reaches the threshold.
 
+## Table of Contents
+
+- [Workflow Checklist](#workflow-checklist)
+- [1. Load Character](#1-load-character)
+- [2. Announce the Level Up](#2-announce-the-level-up)
+- [3. Apply Core Improvements](#3-apply-core-improvements)
+- [4. Skill Proficiencies](#4-skill-proficiencies)
+- [5. Class Features by Level](#5-class-features-by-level)
+- [6. Ability Score Improvements](#6-ability-score-improvements-levels-4-8-etc)
+- [7. New Spells](#7-new-spells-casters)
+- [8. Update XP Threshold](#8-update-xp-threshold)
+- [9. Present the Updated Character](#9-present-the-updated-character)
+
+## Workflow Checklist
+
+Copy this checklist and mark each step complete as you go:
+
+```
+- [ ] 1. Load character and verify XP threshold
+- [ ] 2. Announce the level up
+- [ ] 3. Roll HP increase and update proficiency bonus
+- [ ] 4. Apply new skill proficiencies/expertise (if applicable)
+- [ ] 5. Apply class features from class-features.md
+- [ ] 6. Handle ASI or feat selection (levels 4, 8)
+- [ ] 7. Select new spells (if caster)
+- [ ] 8. Set new XP threshold
+- [ ] 9. Present updated character sheet and save
+```
+
 ## 1. Load Character
 
 Read the character file. Verify:
@@ -24,19 +53,8 @@ Narrate the level-up dramatically:
 ## 3. Apply Core Improvements
 
 ### Hit Points
-Roll the class hit die (or take the average, player's choice):
-- **Barbarian**: `🎲 d12 + CON modifier` (average: 7 + CON)
-- **Fighter**: `🎲 d10 + CON modifier` (average: 6 + CON)
-- **Paladin**: `🎲 d10 + CON modifier` (average: 6 + CON)
-- **Ranger**: `🎲 d10 + CON modifier` (average: 6 + CON)
-- **Bard**: `🎲 d8 + CON modifier` (average: 5 + CON)
-- **Cleric**: `🎲 d8 + CON modifier` (average: 5 + CON)
-- **Druid**: `🎲 d8 + CON modifier` (average: 5 + CON)
-- **Monk**: `🎲 d8 + CON modifier` (average: 5 + CON)
-- **Rogue**: `🎲 d8 + CON modifier` (average: 5 + CON)
-- **Warlock**: `🎲 d8 + CON modifier` (average: 5 + CON)
-- **Sorcerer**: `🎲 d6 + CON modifier` (average: 4 + CON)
-- **Wizard**: `🎲 d6 + CON modifier` (average: 4 + CON)
+Roll the class hit die (or take the average, player's choice). Look up the hit die in `rules/classes.md`:
+- d12: Barbarian | d10: Fighter, Paladin, Ranger | d8: Bard, Cleric, Druid, Monk, Rogue, Warlock | d6: Sorcerer, Wizard
 
 Show the roll: `🎲 HP roll: [result] + CON mod [mod] = +[total] HP → New max HP: [new_max]`
 
@@ -89,7 +107,7 @@ Present appropriate spell options and let the player choose.
 
 ## 8. Update XP Threshold
 
-Set the new XP target for the next level per the XP table in core rules.
+Set the new XP target for the next level per the XP table in RULES.md.
 
 ## 9. Present the Updated Character
 

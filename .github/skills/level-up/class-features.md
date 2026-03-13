@@ -1,6 +1,23 @@
 # Class Features by Level
 
-Reference table of class features gained at each level (1–10).
+Compact reference table of class features gained at each level (1–10), including subclass options. For full class details (hit die, armor, weapons, skill proficiencies, saving throws), see `rules/classes.md`.
+
+## Contents
+
+- [Barbarian](#barbarian)
+- [Fighter](#fighter)
+- [Rogue](#rogue)
+- [Wizard](#wizard)
+- [Sorcerer](#sorcerer)
+- [Warlock](#warlock)
+- [Druid](#druid)
+- [Monk](#monk)
+- [Paladin](#paladin)
+- [Cleric](#cleric)
+- [Ranger](#ranger)
+- [Bard](#bard)
+
+---
 
 ## Barbarian
 

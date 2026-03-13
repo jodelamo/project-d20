@@ -7,6 +7,33 @@ description: Handle tactical combat encounters with initiative, attacks, saving 
 
 Handle tactical combat following these rules precisely. **Every attack, save, and effect requires a dice roll.**
 
+## Table of Contents
+
+- [Workflow Checklist](#workflow-checklist)
+- [1. Load State](#1-load-state)
+- [2. Encounter Generation](#2-encounter-generation-if-new-combat)
+- [3. Initiative](#3-initiative)
+- [4. Combat Rounds](#4-combat-rounds)
+- [5. Conditions in Combat](#5-conditions-in-combat)
+- [6. Death & Dying](#6-death--dying)
+- [7. End of Combat](#7-end-of-combat)
+- [8. Update State](#8-update-state)
+
+## Workflow Checklist
+
+Copy this checklist and mark each step complete as you go:
+
+```
+- [ ] 1. Load character & campaign state
+- [ ] 2. Generate encounter (if new combat)
+- [ ] 3. Roll initiative for all combatants
+- [ ] 4. Run combat rounds (player turns → enemy turns, repeat)
+- [ ] 5. Track conditions each turn
+- [ ] 6. Handle death & dying (if any creature hits 0 HP)
+- [ ] 7. End combat (tally XP, loot, healing check, narrative)
+- [ ] 8. Update state files (HP, XP, items, spell slots, level-up check)
+```
+
 ## 1. Load State
 
 Read the active character and campaign files. Determine:
@@ -85,11 +112,7 @@ When a spell or effect requires a save:
 
 ## 5. Conditions in Combat
 
-Track and enforce conditions. At the start of each affected creature's turn, note active conditions:
-- **Poisoned**: Disadvantage on attacks and ability checks
-- **Stunned**: Can't move or act, auto-fail STR/DEX saves, attacks have advantage
-- **Prone**: Disadvantage on attacks, melee attacks against have advantage, ranged have disadvantage
-- **Frightened**: Disadvantage on checks/attacks while source is in sight, can't willingly move closer
+Track and enforce conditions per RULES.md. At the start of each affected creature's turn, announce active conditions and apply their effects before the creature acts.
 
 ## 6. Death & Dying
 
@@ -110,7 +133,7 @@ Any damage while at 0 HP = automatic death save failure. Massive damage (remaini
 When all enemies are defeated or combat ends:
 
 1. **Tally XP**: Sum enemy XP values, divide among party members
-2. **Loot**: Roll for enemy drops (use loot prompt or quick table below)
+2. **Loot**: Roll for enemy drops (use the **loot** skill or quick table below)
 3. **Healing check**: Remind player of current HP and available healing
 4. **Narrative**: Describe the aftermath — the silence after battle, the scene
 
@@ -129,4 +152,4 @@ After combat:
 - Update character HP, spell slots used, items consumed
 - Add XP to character file. **Check if level-up threshold is reached!**
 - Update campaign file with combat results, enemy status
-- If a character leveled up, prompt the player to use the **level-up** prompt
+- If a character leveled up, prompt the player to use the **level-up** skill

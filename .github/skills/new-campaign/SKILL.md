@@ -7,6 +7,17 @@ description: Generate a new campaign world with setting, factions, locations, an
 
 You are creating a **brand new campaign world** for Infinite Dungeon Master. Follow these steps:
 
+## Workflow Checklist
+
+Copy this checklist and mark each step complete as you go:
+
+```
+- [ ] 1. Ask player preferences (tone, setting hook, world size)
+- [ ] 2. Generate the world (name, era, conflict, magic level, locations, factions, quest hook)
+- [ ] 3. Save campaign state file
+- [ ] 4. Prompt character creation
+```
+
 ## Step 1: Ask the Player for Preferences
 
 Use the `ask_user` tool to ask the player **one question at a time**. Always pass choices as a **list** (array), never a single string.
@@ -66,10 +77,10 @@ A compelling reason for an adventurer to be here right now. Include:
 
 ## Step 3: Save the Campaign
 
-Create the campaign state file at `campaigns/{campaign-name-slug}.json` following the format defined in the core rules. Populate all generated world data.
+Create the campaign state file at `campaigns/{campaign-name-slug}.json` following the format defined in `rules/state-formats.md`. Populate all generated world data.
 
 ## Step 4: Prompt Character Creation
 
 After presenting the world, ask: *"Your world awaits. Shall we create your character?"*
 
-If yes, guide them to use the **create-character** prompt.
+If yes, guide them to use the **create-character** skill.

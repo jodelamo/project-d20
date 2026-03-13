@@ -7,6 +7,20 @@ description: Handle journeys between locations with travel events, random encoun
 
 Handle journeys between locations with travel events, random encounters, and world-building.
 
+## Workflow Checklist
+
+Copy this checklist and mark each step complete as you go:
+
+```
+- [ ] 1. Load state (location, destination, supplies, time, weather)
+- [ ] 2. Determine travel distance, terrain, and weather
+- [ ] 3. Narrate the journey (atmosphere, time passing)
+- [ ] 4. Roll random encounters per travel segment
+- [ ] 5. Track resources (rations, water, light, navigation)
+- [ ] 6. Describe arrival and generate new location (if needed)
+- [ ] 7. Update state (location, rations, time, discoveries, XP, HP)
+```
+
 ## 1. Load State
 
 Read campaign and character files for:

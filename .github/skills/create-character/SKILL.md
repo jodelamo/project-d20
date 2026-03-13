@@ -7,6 +7,37 @@ description: Guide the player through creating a new RPG character with race, cl
 
 Guide the player through creating a new character step by step. **Roll dice where indicated.** Always show rolls.
 
+## Table of Contents
+
+- [Workflow Checklist](#workflow-checklist)
+- [Step 1: Name & Concept](#step-1-name--concept)
+- [Step 2: Choose Race](#step-2-choose-race)
+- [Step 3: Choose Class](#step-3-choose-class)
+- [Step 4: Roll Attributes](#step-4-roll-attributes)
+- [Step 5: Calculate Derived Stats](#step-5-calculate-derived-stats)
+- [Step 6: Choose Skill Proficiencies](#step-6-choose-skill-proficiencies)
+- [Step 7: Starting Equipment & Gold](#step-7-starting-equipment--gold)
+- [Step 8: Spells](#step-8-spells-if-spellcaster)
+- [Step 9: Backstory](#step-9-backstory)
+- [Step 10: Save Character](#step-10-save-character)
+
+## Workflow Checklist
+
+Copy this checklist and mark each step complete as you go:
+
+```
+- [ ] 1. Name & concept
+- [ ] 2. Choose race (+ subrace if applicable)
+- [ ] 3. Choose class
+- [ ] 4. Roll attributes (4d6 drop lowest × 6, assign, apply racial bonuses)
+- [ ] 5. Calculate derived stats (HP, AC, initiative, proficiency)
+- [ ] 6. Choose skill proficiencies (class + background)
+- [ ] 7. Starting equipment & gold
+- [ ] 8. Spells (if spellcaster)
+- [ ] 9. Backstory
+- [ ] 10. Save character file & present character sheet
+```
+
 ## Step 1: Name & Concept
 
 Ask the player for:
@@ -17,7 +48,7 @@ If they want random generation, roll on improvised tables.
 
 ## Step 2: Choose Race
 
-Present the available races from the core rules with their bonuses and traits (refer to RULES.md for full details):
+Present the available races from `rules/races.md` with their bonuses and traits:
 - Dwarf (+2 CON, darkvision, poison resistance — subrace: Hill or Mountain)
 - Elf (+2 DEX, darkvision, Fey Ancestry, Keen Senses — subrace: High or Wood)
 - Halfling (+2 DEX, Lucky, Brave, Nimbleness — subrace: Lightfoot or Stout)
@@ -73,19 +104,7 @@ If the player prefers, offer **standard array** instead: 15, 14, 13, 12, 10, 8
 
 Each class grants a number of skills chosen from a specific list. The player's background also grants 2 additional proficiencies. Refer to RULES.md for the full skill list and class skill options.
 
-Grant **class skill proficiencies**:
-- Barbarian: Choose 2 from Animal Handling, Athletics, Intimidation, Nature, Perception, Survival
-- Bard: Choose any 3 skills
-- Cleric: Choose 2 from History, Insight, Medicine, Persuasion, Religion
-- Druid: Choose 2 from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, Survival
-- Fighter: Choose 2 from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, Survival
-- Monk: Choose 2 from Acrobatics, Athletics, History, Insight, Religion, Stealth
-- Paladin: Choose 2 from Athletics, Insight, Intimidation, Medicine, Persuasion, Religion
-- Ranger: Choose 3 from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, Survival
-- Rogue: Choose 4 from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, Stealth
-- Sorcerer: Choose 2 from Arcana, Deception, Insight, Intimidation, Persuasion, Religion
-- Warlock: Choose 2 from Arcana, Deception, History, Intimidation, Investigation, Nature, Religion
-- Wizard: Choose 2 from Arcana, History, Insight, Investigation, Medicine, Religion
+Grant **class skill proficiencies** — look up the class in `rules/classes.md` for the number of skills and the specific list to choose from. Present only the options for the player's chosen class.
 
 Then ask for a **background** (Acolyte, Criminal, Folk Hero, Noble, Sage, Soldier, or custom) which grants 2 more skill proficiencies per the background description.
 
@@ -110,7 +129,7 @@ Weave answers into a 2–3 paragraph backstory.
 
 ## Step 10: Save Character
 
-Create the character file at `characters/{name-slug}.json` following the core rules format. Include all stats, inventory, spells, and backstory.
+Create the character file at `characters/{name-slug}.json` following the format in `rules/state-formats.md`. Include all stats, inventory, spells, and backstory.
 
 Present the completed character as an ASCII character sheet using the template below, then ask: *"Your hero is ready. Shall we begin the adventure?"*
 

@@ -2,14 +2,19 @@
 
 This is a zero-code, AI-driven tabletop RPG. No build system, no tests, no application code — only markdown rules and JSON game state.
 
-See @RULES.md for the complete game mechanics (dice, attributes, combat, spells, leveling). Read it at the start of every session.
+See @RULES.md for the core game mechanics (dice, attributes, combat, skills, leveling, display formatting). Read it at the start of every session.
 
 ## Architecture
 
-- `RULES.md` — Authoritative rules engine. All game mechanics live here.
+- `RULES.md` — Core rules engine. Contains dice, attributes, skills, combat, XP, currency, DCs, display formatting, and GM style guidelines.
+- `rules/` — Detailed reference files loaded on demand:
+  - `rules/races.md` — 9 playable races with subraces and traits
+  - `rules/classes.md` — 12 classes with features (levels 1–10)
+  - `rules/spellcasting.md` — Spell slot tables (full caster, half-caster, Pact Magic)
+  - `rules/state-formats.md` — Character sheet and campaign state JSON schemas
 - `.github/skills/*/SKILL.md` — Copilot skill files invoked as slash commands (`/combat`, `/explore`, etc.). Each defines a step-by-step GM procedure.
-- `characters/*.json` — Character sheets. Schema defined in RULES.md § "Character Sheet Format".
-- `campaigns/*.json` — World state (locations, factions, NPCs, quests, time). Schema defined in RULES.md § "Campaign State Format".
+- `characters/*.json` — Character sheets. Schema defined in `rules/state-formats.md`.
+- `campaigns/*.json` — World state (locations, factions, NPCs, quests, time). Schema defined in `rules/state-formats.md`.
 
 ## Critical rules
 

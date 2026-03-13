@@ -7,6 +7,34 @@ description: Resolve any ability check or skill test the player attempts with di
 
 Resolve any ability check or skill test the player attempts.
 
+## Table of Contents
+
+- [Workflow Checklist](#workflow-checklist)
+- [1. Load Character](#1-load-character)
+- [2. Determine the Check](#2-determine-the-check)
+- [3. Check for Advantage/Disadvantage](#3-check-for-advantagedisadvantage)
+- [4. Roll the Check](#4-roll-the-check)
+- [5. Narrate the Outcome](#5-narrate-the-outcome)
+- [6. Award XP](#6-award-xp)
+- [7. Opposed Checks](#7-opposed-checks)
+- [8. Group Checks](#8-group-checks)
+- [9. Update State](#9-update-state)
+
+## Workflow Checklist
+
+Copy this checklist and mark each step complete as you go:
+
+```
+- [ ] 1. Load character stats, proficiencies, and conditions
+- [ ] 2. Determine skill/ability and set DC
+- [ ] 3. Check for advantage/disadvantage
+- [ ] 4. Roll the check (d20 + modifiers vs DC)
+- [ ] 5. Narrate the outcome (success/failure with flavor)
+- [ ] 6. Award XP for significant checks
+- [ ] 7. Handle opposed/group checks (if applicable)
+- [ ] 8. Update state (XP, consequences, time)
+```
+
 ## 1. Load Character
 
 Read the character file to get:
@@ -20,42 +48,10 @@ Read the character file to get:
 Based on what the player wants to do, determine:
 
 ### The Skill or Ability
-Match the action to the most appropriate skill:
-| Player wants to... | Skill | Attribute |
-|---|---|---|
-| Climb a wall | Athletics | STR |
-| Sneak past guards | Stealth | DEX |
-| Pick a lock | Sleight of Hand | DEX |
-| Recall ancient lore | History or Arcana | INT |
-| Sense a lie | Insight | WIS |
-| Convince someone | Persuasion | CHA |
-| Threaten someone | Intimidation | CHA |
-| Track an animal | Survival | WIS |
-| Diagnose an illness | Medicine | WIS |
-| Perform a song | Performance | CHA |
-| Balance on a beam | Acrobatics | DEX |
-| Calm a wild beast | Animal Handling | WIS |
-| Search a room | Investigation | INT |
-| Notice something | Perception | WIS |
-| Tell a lie | Deception | CHA |
-| Identify a plant | Nature | INT |
-| Know about a god | Religion | INT |
-
-If the action doesn't clearly map, use a **raw ability check** (just the attribute modifier, no skill bonus).
+Match the action to the most appropriate skill from the skill list in RULES.md. If the action doesn't clearly map to a skill, use a **raw ability check** (just the attribute modifier, no skill bonus).
 
 ### The Difficulty Class (DC)
-Set a fair DC based on the situation:
-
-| Difficulty | DC | Example |
-|---|---|---|
-| Trivial | 5 | Climb a ladder |
-| Easy | 10 | Climb a rough stone wall |
-| Medium | 15 | Climb a slippery cliff |
-| Hard | 20 | Climb an overhang |
-| Very Hard | 25 | Climb a smooth marble wall |
-| Nearly Impossible | 30 | Climb an inverted glass ceiling |
-
-**Explain the DC choice** briefly so the player understands the challenge.
+Set a fair DC using the DC table in RULES.md (5 trivial → 10 easy → 15 medium → 20 hard → 25 very hard → 30 nearly impossible). **Explain the DC choice** briefly so the player understands the challenge.
 
 ## 3. Check for Advantage/Disadvantage
 

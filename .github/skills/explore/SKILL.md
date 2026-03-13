@@ -7,6 +7,31 @@ description: Handle exploration of surroundings, searching for secrets, and inve
 
 The player wants to explore their surroundings. Follow this procedure:
 
+## Table of Contents
+
+- [Workflow Checklist](#workflow-checklist)
+- [1. Load Current State](#1-load-current-state)
+- [2. Describe the Scene](#2-describe-the-scene)
+- [3. Passive Perception Check](#3-passive-perception-check)
+- [4. Player Actions](#4-player-actions)
+- [5. Discovery Rewards](#5-discovery-rewards)
+- [6. Random Discovery Table](#6-random-discovery-table-d20)
+- [7. Update State](#7-update-state)
+
+## Workflow Checklist
+
+Copy this checklist and mark each step complete as you go:
+
+```
+- [ ] 1. Load current state (location, time, character skills)
+- [ ] 2. Describe the scene (sights, sounds, smells, interactables)
+- [ ] 3. Run passive Perception check
+- [ ] 4. Handle player actions (search, perception, traps, hazards)
+- [ ] 5. Award discovery rewards (lore, items, locations, quest hooks)
+- [ ] 6. Roll on random discovery table (if area not pre-populated)
+- [ ] 7. Update state (discoveries, items, XP, time)
+```
+
 ## 1. Load Current State
 
 Read the campaign file from `campaigns/` and the active character file from `characters/` to understand:
@@ -60,7 +85,7 @@ For natural dangers (collapsing floor, slippery ledge, toxic gas):
 
 When players find something notable:
 - **Lore**: Record in campaign notes, award 25–100 XP for significant discoveries
-- **Items**: Add to character inventory (use the loot prompt for generation)
+- **Items**: Add to character inventory (use the **loot** skill for generation)
 - **Locations**: Add newly discovered places to the campaign world map
 - **Quest hooks**: Create or advance quest entries in the campaign file
 
