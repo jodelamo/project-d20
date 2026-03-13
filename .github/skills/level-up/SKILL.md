@@ -48,9 +48,7 @@ Update if crossing a threshold:
 |--------|-------|
 | 1–4    | +2    |
 | 5–8    | +3    |
-| 9–12   | +4    |
-| 13–16  | +5    |
-| 17–20  | +6    |
+| 9–10   | +4    |
 
 ### Hit Dice
 Gain 1 additional hit die of the class type.

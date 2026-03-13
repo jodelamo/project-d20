@@ -400,9 +400,7 @@ Each skill is linked to an attribute. Characters gain **proficiency** in specifi
 |--------|-------------------|
 | 1-4    | +2                |
 | 5-8    | +3                |
-| 9-12   | +4                |
-| 13-16  | +5                |
-| 17-20  | +6                |
+| 9-10   | +4                |
 
 ### Skill Proficiency
 - **Not proficient**: Roll d20 + ability modifier only.
