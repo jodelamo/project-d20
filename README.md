@@ -48,13 +48,9 @@ Your game state is persisted as files:
 
 These files are read and updated automatically as you play.
 
-### Core Rules
-
-The full game rules are in `RULES.md` — reference it at the start of your session so Copilot knows the system.
-
 ### Tips
 
-- Reference `#file:RULES.md` at the start of each session for consistent mechanics, or add it as a custom instruction
+- The full game rules are in `RULES.md` — Copilot loads them automatically via custom instructions
 - You can say anything — the skills handle the mechanics, but you drive the story
 - Be creative! Propose unorthodox solutions and the GM will set a fair DC
 - Your choices have consequences that persist in the campaign file
