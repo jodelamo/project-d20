@@ -310,6 +310,87 @@ All gold and currency displays use the 🪙 icon with bold amounts:
 
 ---
 
+## Display Formatting — NPC Cards
+
+When introducing an NPC for the first time (or reintroducing a recurring NPC after a long absence), display an **NPC card** to give the player an at-a-glance summary.
+
+### Disposition Icons
+
+| Icon | Disposition | Meaning |
+|------|-------------|---------|
+| 🔴 | **Hostile** | Wants the party gone or dead |
+| 🟡 | **Suspicious** | Wary, needs convincing |
+| ⚪ | **Neutral** | Indifferent, transactional |
+| 🟢 | **Friendly** | Helpful, chatty |
+| 💛 | **Grateful** | Owes a debt, eager to help |
+| 🟣 | **Mysterious** | Hidden agenda, cryptic |
+
+### NPC Card Format
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NPC NAME
+Race  ·  Alignment  ·  Occupation
+🟢 Disposition  ·  📍 Location
+
+"Short appearance description — two
+vivid sentences with sensory detail."
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### NPC Card Examples
+
+**Friendly blacksmith:**
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MARTA IRONVEIL
+Half-Elf  ·  Lawful Neutral  ·  Smith
+🟢 Friendly  ·  📍 Thornwall Market
+
+"A stocky woman with soot-streaked arms
+and a knowing grin. A ruby-hilted blade
+hangs behind the counter."
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+**Suspicious innkeeper:**
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GREL DUSTMANTLE
+Dwarf  ·  Neutral  ·  Innkeeper
+🟡 Suspicious  ·  📍 The Rusty Nail
+
+"A barrel-chested dwarf polishing the
+same glass for the last ten minutes.
+His eyes track every move you make."
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+**Hostile bandit leader:**
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VASHKA THE RED
+Half-Orc  ·  Chaotic Evil  ·  Bandit
+🔴 Hostile  ·  📍 Ashenmoor Road
+
+"A towering figure in scarred leather,
+one tusk capped in iron. She spits at
+the ground as you approach."
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### When to Display the Card
+
+- **First meeting**: Always show the full card
+- **Returning NPC**: Show the card if it has been more than 1 in-game day, or if disposition has changed
+- **Combat NPCs**: Skip the card if combat begins immediately — use it after combat if the NPC surrenders or is captured
+- **Shopkeepers**: Show the card before the first transaction
+
+---
+
 ## Display Formatting — Scene Banners
 
 Use these banners to visually separate scenes during play. Every scene opens with a **header banner** and closes with a **status footer**. This is especially important during autonomous `/start` play, but should be used in all skills.
