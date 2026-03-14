@@ -69,7 +69,7 @@ These files are read and updated automatically as you play.
 
 ### Tips
 
-- The full game rules are in `RULES.md` — Copilot loads them automatically via custom instructions
+- The full game rules are in `RULES.md` — your agent loads them automatically via custom instructions
 - You can say anything — the skills handle the mechanics, but you drive the story
 - Be creative! Propose unorthodox solutions and the GM will set a fair DC
 - Your choices have consequences that persist in the campaign file
