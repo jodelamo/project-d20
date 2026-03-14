@@ -1,4 +1,4 @@
-# 🎲 Infinite Dungeon Master
+# 🎲 Project D20
 
 A fully AI-driven tabletop RPG campaign system powered by **GitHub Copilot**, built on the rules of **Dungeons & Dragons** (5th Edition Basic Rules, 2014). **100% prompt-engineered** — no application code, no framework, no build step. Just markdown instructions, dice, and imagination.
 

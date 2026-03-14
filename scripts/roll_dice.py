@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Dice roller for Infinite Dungeon Master.
+"""Dice roller for Project D20.
 
 Usage:
     python scripts/roll_dice.py <dice_notation> [<dice_notation> ...]

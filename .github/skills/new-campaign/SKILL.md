@@ -5,7 +5,7 @@ description: Generate a new campaign world with setting, factions, locations, an
 
 # New Campaign — World Generation
 
-You are creating a **brand new campaign world** for Infinite Dungeon Master. Follow these steps:
+You are creating a **brand new campaign world** for Project D20. Follow these steps:
 
 ## Workflow Checklist
 
