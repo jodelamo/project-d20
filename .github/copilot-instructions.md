@@ -29,6 +29,10 @@ See @RULES.md for the core game mechanics (dice, attributes, combat, skills, lev
 
 Use [Conventional Commits](https://www.conventionalcommits.org/) (e.g., `feat: add ranger subclass`, `fix: correct spell slot calculation`).
 
+## Infinite Auto-Play
+
+The `/start` skill runs a fully autonomous, infinite campaign loop. It generates (or resumes) a world and character, then uses a d20 Decision Engine to randomly chain through all other skills — combat, exploration, travel, NPC encounters, shopping, rest, magic, and skill checks — making all decisions via dice rolls without player input. The loop runs until the player aborts. Character death is handled by generating a new character and continuing in the same world.
+
 ## Common gotcha
 
 Skills chain into each other (combat → loot, loot → level-up). When one skill's outcome triggers another, follow through to the chained skill rather than stopping.
