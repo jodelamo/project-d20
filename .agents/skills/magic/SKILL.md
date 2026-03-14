@@ -59,8 +59,10 @@ If the player wants to cast a spell they don't know: **"You don't have that spel
 
 ## 4. Resolve the Spell
 
+Open the scene with a **header banner** (see `RULES.md` § "Display Formatting — Scene Banners") using the ✨ MAGIC EVENT scene type if this is a significant spell outside of combat. During combat, skip the banner — the combat scene is already open.
+
 ### Spell Attack Rolls
-For spells requiring an attack roll:
+For spells requiring an attack roll, display a **spell card** (see `RULES.md` § "Display Formatting — Spell Cards") for significant spells (AoE, dramatic moments, rituals). Use inline roll format for cantrips and simple attacks.
 ```
 🎲 d20 + spell attack bonus vs target AC
 → Hit: Roll damage
@@ -122,3 +124,4 @@ After spellcasting:
 - Note active concentration spells
 - Record any conditions applied to enemies/allies
 - Award XP for creative spell use (25–50 XP)
+- If a header banner was opened, close with a **status footer** (see `RULES.md` § "Display Formatting — Scene Banners")

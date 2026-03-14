@@ -42,6 +42,10 @@ Read the campaign file from `campaigns/` and the active character file from `cha
 
 ## 2. Describe the Scene
 
+Open the scene with a **header banner** (see `RULES.md` § "Display Formatting — Scene Banners") using the 🔍 EXPLORATION scene type, showing the current location and day/time.
+
+When the player enters a distinct new area during exploration, display a **location card** (see `RULES.md` § "Display Formatting — Location Cards") before describing interactable elements.
+
 Paint a vivid picture of the environment using all senses. Include:
 - What the character **sees** (landscape, structures, creatures, light)
 - What they **hear** (ambient sounds, distant noises, silence)
@@ -113,3 +117,4 @@ After exploration, update:
 - Campaign file with new discoveries, map changes, quest updates
 - Character file with any XP gained, items found, HP changes
 - Advance in-game time (exploration takes 10–60 minutes depending on area size)
+- Close the scene with a **status footer** (see `RULES.md` § "Display Formatting — Scene Banners")

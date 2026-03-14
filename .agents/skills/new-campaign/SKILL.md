@@ -47,7 +47,7 @@ If the player says "Surprise me" for any question, generate that choice randomly
 
 ## Step 2: Generate the World
 
-Create the following and **narrate it dramatically** to the player:
+Create the following and **narrate it dramatically** to the player. Open with a **header banner** (see `RULES.md` § "Display Formatting — Scene Banners") using the 🌟 MAJOR EVENT scene type for the world reveal. Then present the world using a **campaign intro card** (see `RULES.md` § "Display Formatting — Campaign Intro Card") showing the world name, conflict, magic level, starting locations, factions, and quest hook.
 
 ### The World
 - **Name**: A evocative, original world name

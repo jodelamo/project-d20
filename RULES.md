@@ -391,6 +391,366 @@ the ground as you approach."
 
 ---
 
+## Display Formatting — Monster Cards
+
+When combat begins, introduce enemies visually before rolling initiative. Use a **monster card** for solo or boss encounters, and a **monster roster** for groups.
+
+### Monster Card (solo / boss)
+
+Use this when there is a single enemy or a named boss. Show key combat stats and a short description.
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MONSTER NAME
+Type  ·  CR X  ·  ⚔️ XP
+❤️ HP  ·  🛡️ AC  ·  ⚡ +X to hit
+
+"Short dramatic description — one to two
+sentences with vivid sensory detail."
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+**Example — solo monster:**
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CAVE TROLL
+Large Giant  ·  CR 3  ·  ⚔️ 450 XP
+❤️ 42 HP  ·  🛡️ AC 15  ·  ⚡ +5 to hit
+
+"A hulking mass of grey-green muscle
+ducks through the cavern entrance, a
+crude stone club dragging behind it."
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### Monster Roster (groups)
+
+Use this when there are multiple enemies. List each enemy on one line with compact stats. Show total encounter XP and difficulty in the header.
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ENCOUNTER — X enemies  ·  Difficulty  ·  ⚔️ Total XP
+─────────────────────────────────────────
+👹 Enemy Name      ❤️ HP  🛡️ AC  CR X
+👹 Enemy Name      ❤️ HP  🛡️ AC  CR X
+👹 Enemy Name      ❤️ HP  🛡️ AC  CR X
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+**Example — group encounter:**
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ENCOUNTER — 3 enemies  ·  Hard  ·  ⚔️ 350 XP
+─────────────────────────────────────────
+👹 Goblin Shaman    ❤️ 18 HP  🛡️ AC 12  CR 1
+👹 Goblin Warrior   ❤️ 12 HP  🛡️ AC 15  CR ½
+👹 Goblin Archer    ❤️ 10 HP  🛡️ AC 13  CR ½
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### Which Format to Use
+
+- **1 enemy**: Monster card
+- **2+ enemies**: Monster roster
+- **Boss + minions**: Monster card for the boss, then a roster for the minions
+
+---
+
+## Display Formatting — Location Cards
+
+When the party arrives at a new location (via travel or exploration), display a **location card** to establish the scene at a glance.
+
+### Location Card Format
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LOCATION NAME
+Type  ·  Region  ·  Danger Level
+🌤️ Weather  ·  🕐 Time of Day
+
+"Short atmospheric description — one to
+three sentences with sensory detail."
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### Danger Level Labels
+
+| Label | Meaning |
+|-------|---------|
+| Safe | Towns, temples, warded areas |
+| Moderate | Wilds, ruins with light danger |
+| Dangerous | Dungeons, enemy territory |
+| Deadly | Boss lairs, planar rifts, cursed zones |
+
+### Location Card Examples
+
+**Town:**
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE RUSTY NAIL INN
+Tavern  ·  Thornwall  ·  Safe
+🌧️ Raining  ·  🕐 Dusk
+
+"A sagging two-story building with warm
+light spilling from cracked shutters.
+Laughter and fiddle music drift out into
+the muddy street."
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+**Dungeon entrance:**
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DARKHOLLOW CAVE
+Dungeon  ·  Ashenmoor Foothills  ·  Dangerous
+🌑 Dark  ·  🕐 Night
+
+"A jagged maw in the hillside, half-
+hidden by dead thornbushes. Cold air
+seeps out carrying the smell of rot."
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### When to Display the Card
+
+- **Arriving at a new location**: Always show the card
+- **Returning to a known location**: Show only if conditions have changed (weather, time, danger level)
+- **Sub-locations**: Show a card when entering a distinct area within a larger location (e.g., a specific room in a dungeon)
+
+---
+
+## Display Formatting — Level-Up Summary
+
+After applying all level-up improvements, display a **level-up summary** showing everything the character gained. This appears between the banner and the status footer.
+
+### Level-Up Summary Format
+
+```
+🎲 HP roll: [result] + [CON mod] = +[total] HP
+❤️  [old max] → [new max] Max HP
+
+New at Level [N]:
+  [icon] Feature or improvement
+  [icon] Feature or improvement
+  ...
+```
+
+### Level-Up Summary Example
+
+```
+🎲 HP roll: 8 + 2 (CON) = +10 HP
+❤️  28 → 38 Max HP
+
+New at Level 4:
+  ⬆️ Ability Score Improvement: STR 16 → 18
+  ⚔️ Attack bonus: +5 → +6
+  💪 STR save: +5 → +6
+```
+
+Use appropriate icons: ⬆️ for stat increases, ⚔️ for attack changes, 🛡️ for AC changes, ✨ for new spells or magical features, 🎯 for new class features, 🎲 for new proficiencies.
+
+---
+
+## Display Formatting — Rest Summary
+
+At the end of a rest, display a **rest summary** showing what was recovered. This appears after any campfire narration and before the status footer.
+
+### Rest Summary Format
+
+```
+Recovery:
+  ❤️ [old HP]/[max] → [new HP]/[max] (+[amount])
+  🎲 Hit Dice: [old]/[total] → [new]/[total] (+[regained])
+  ✨ Spell Slots: [status]
+  🍖 Rations: [old] → [new] (−[consumed])
+```
+
+### Rest Summary Examples
+
+**Long rest:**
+
+```
+Recovery:
+  ❤️ 14/38 HP → 38/38 HP (+24)
+  🎲 Hit Dice: 2/4 → 4/4 (+2 regained)
+  ✨ Spell Slots: All restored
+  🍖 Rations: 5 → 4 (−1)
+```
+
+**Short rest with hit dice:**
+
+```
+Recovery:
+  🎲 Spent 2 Hit Dice:
+    🎲 d10 + 2 = 8 HP
+    🎲 d10 + 2 = 5 HP
+  ❤️ 12/38 HP → 25/38 HP (+13)
+  🎲 Hit Dice: 4/4 → 2/4 (−2 spent)
+```
+
+Only show lines that are relevant — omit spell slots for non-casters, omit rations if in a town, etc.
+
+---
+
+## Display Formatting — Critical Hits & Misses
+
+Natural 20s and natural 1s should be visually distinct from normal rolls to mark them as dramatic moments.
+
+### Critical Hit (Natural 20)
+
+```
+🎲 d20 + [mod] = ★ NATURAL 20 ★ — CRITICAL HIT!
+⚔️ Damage: ([dice] + [dice]) + [mod] = [total] damage!
+```
+
+### Critical Miss (Natural 1)
+
+```
+🎲 d20 + [mod] = ✖ NATURAL 1 ✖ — CRITICAL MISS!
+[Short narrative description of the fumble.]
+```
+
+### Examples
+
+**Critical hit:**
+
+```
+🎲 d20 + 6 = ★ NATURAL 20 ★ — CRITICAL HIT!
+⚔️ Damage: (2d8 + 2d8) + 4 = 26 damage!
+```
+
+**Critical miss:**
+
+```
+🎲 d20 + 6 = ✖ NATURAL 1 ✖ — CRITICAL MISS!
+The blade slips from rain-slick fingers and clatters across the stone.
+```
+
+Use these formats in combat, spell attacks, and any attack roll. Normal rolls continue to use the standard `🎲 [Die] rolled: [Result] + [Modifier] = [Total] vs DC [Target]` format.
+
+---
+
+## Display Formatting — Spell Cards
+
+When casting a significant spell — especially area-of-effect, dramatic combat spells, or ritual magic outside of combat — display a **spell card** showing the spell's key details before resolving it.
+
+### Spell Card Format
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✨ SPELL NAME — [Level] Level [School]
+Range: [range]  ·  Area: [area/target]
+[Effect summary in one line]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### Spell Card Examples
+
+**Area-of-effect spell:**
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✨ FIREBALL — 3rd Level Evocation
+Range: 150 ft  ·  Area: 20 ft sphere
+Each creature: DEX save or 8d6 fire
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎲 Damage: 8d6 = 29 fire damage
+  Goblin Warrior: DEX save 🎲 8 vs DC 14 — ❌ 29 damage → DEAD
+  Goblin Archer:  DEX save 🎲 17 vs DC 14 — ✅ 14 damage
+  Goblin Shaman:  DEX save 🎲 5 vs DC 14 — ❌ 29 damage → DEAD
+```
+
+**Healing spell:**
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✨ CURE WOUNDS — 1st Level Evocation
+Range: Touch  ·  Target: 1 creature
+Restore 1d8 + spellcasting mod HP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎲 1d8 + 3 = 7 HP restored
+❤️ Thorne: 12/26 HP → 19/26 HP
+```
+
+### When to Show the Card
+
+- **AoE spells**: Always (multiple targets need clear resolution)
+- **Dramatic single-target spells**: At the GM's discretion for big moments
+- **Cantrips and simple attacks**: Skip the card — use inline roll format
+- **Ritual casting outside combat**: Always (emphasizes the ritual)
+
+---
+
+## Display Formatting — Campaign Intro Card
+
+When generating a new campaign world, present it with a **campaign intro card** that gives the player an overview of the setting before character creation begins.
+
+### Campaign Intro Card Format
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌟  WORLD NAME
+[Tagline — tone and era in one sentence]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚔️ Conflict: [Core tension, 2-3 lines]
+
+✨ Magic: [Level — Low/Medium/High + brief note]
+
+📍 Starting Region:
+  · Location (type, danger level)
+  · Location (type, danger level)
+  · Location (type, danger level)
+
+⚔️ Factions:
+  · Faction Name — [one-line description]
+  · Faction Name — [one-line description]
+  · Faction Name — [one-line description]
+
+📜 Quest Hook: [Compelling 2-3 line hook
+   with stakes and urgency]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### Campaign Intro Card Example
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌟  THE SHATTERED REACH
+A dark fantasy world in the Age of Ruin
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚔️ Conflict: The Godscar rift grows wider
+   each night, spilling abominations into
+   the mortal realm.
+
+✨ Magic: Medium — known but distrusted
+
+📍 Starting Region:
+  · Thornwall (frontier town, safe)
+  · The Godscar (planar rift, deadly)
+  · Ashenmoor (haunted marshland, dangerous)
+  · Ironveil Mines (abandoned, moderate)
+
+⚔️ Factions:
+  · The Wardkeepers — defend the rift
+  · The Ashen Court — profit from chaos
+  · The Hollow Ones — worship what's coming
+
+📜 Quest Hook: The Wardkeepers' captain
+   has gone missing near the rift. Someone
+   needs to find him before the next surge.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+---
+
 ## Display Formatting — Scene Banners
 
 Use these banners to visually separate scenes during play. Every scene opens with a **header banner** and closes with a **status footer**. This is especially important during autonomous `/start` play, but should be used in all skills.

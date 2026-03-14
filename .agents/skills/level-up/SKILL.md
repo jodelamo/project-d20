@@ -47,6 +47,8 @@ If XP is insufficient: *"You need [X] more XP to reach level [N]. Keep adventuri
 
 ## 2. Announce the Level Up
 
+Open the scene with a **header banner** (see `RULES.md` § "Display Formatting — Scene Banners") using the ⬆️ LEVEL UP scene type, showing the level change and current day.
+
 Narrate the level-up dramatically:
 *"Experience courses through you like fire. Battles fought, lessons learned, secrets uncovered — it all crystallizes into newfound power. You are now **Level [N]**!"*
 
@@ -111,6 +113,10 @@ Set the new XP target for the next level per the XP table in RULES.md.
 
 ## 9. Present the Updated Character
 
-Display the full updated character sheet showing all changes highlighted. Save the updated character file.
+Display a **level-up summary** (see `RULES.md` § "Display Formatting — Level-Up Summary") showing the HP roll, new max HP, and all features gained at the new level.
+
+Then display the full updated character sheet showing all changes highlighted. Save the updated character file.
 
 End with: *"You feel stronger, sharper, more capable. The road ahead holds new challenges worthy of your growing power."*
+
+Close with a **status footer** (see `RULES.md` § "Display Formatting — Scene Banners").

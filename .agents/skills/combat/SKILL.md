@@ -60,7 +60,10 @@ For each enemy, create:
 - 1–2 special abilities appropriate to the creature type
 - XP reward based on CR
 
-Present enemies dramatically: *"From the shadows emerge..."*
+Present enemies using the display formats from `RULES.md` § "Display Formatting — Monster Cards":
+- **1 enemy**: Show a **monster card** with stats and a short description
+- **2+ enemies**: Show a **monster roster** with compact per-enemy stats
+- **Boss + minions**: Monster card for the boss, then a roster for the minions
 
 ## 3. Initiative
 
@@ -97,8 +100,8 @@ On each party member's turn, present the tactical situation and choose their act
 1. `🎲 d20 + ATK modifier` vs target's AC
 2. **Hit**: Roll damage die + modifier. Describe the hit vividly.
 3. **Miss**: Describe the near-miss.
-4. **Natural 20**: CRITICAL HIT — double all damage dice, describe epicly.
-5. **Natural 1**: Critical miss — describe the fumble (no extra penalty, just flavor).
+4. **Natural 20**: CRITICAL HIT — use the `★ NATURAL 20 ★` format (see `RULES.md` § "Display Formatting — Critical Hits & Misses"). Double all damage dice, describe epicly.
+5. **Natural 1**: Critical miss — use the `✖ NATURAL 1 ✖` format. Describe the fumble (no extra penalty, just flavor).
 
 ### Enemy Turns
 The GM controls all enemies. For each:
